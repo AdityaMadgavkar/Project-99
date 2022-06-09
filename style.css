@@ -1,0 +1,49 @@
+.image{
+    width:350px;
+    height:200px;
+    border:2px black solid;
+    border-radius:7px;
+    padding:5px;
+    box-shadow:0px 8px 10px 0 rgb(151, 142, 142);
+}
+
+body{
+    background-color: aqua;
+}
+
+.heading{
+    color:purple;
+    font-family: Georgia;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: rgb(247, 247, 166);
+    color:black;
+    text-align: center;
+}
+
+h1{
+    font-weight:bold;
+    font-style:oblique;
+    font-family:sans-serif;
+}
+
+
+
+.Oimg{
+    border:2px black solid;
+    border-radius:7px;
+    margin:30px;
+    box-shadow:0px 8px 10px 0 rgb(151, 142, 142);
+    display:inline-block;
+}
+.Oimg:hover{
+    width:300px;
+    height:150px;
+    border:4px black ridge;
+    border-radius:75px;
+}
+

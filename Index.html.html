@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+
+<body>
+
+<center>
+
+<h1>Collage Web App</h1>
+<hr style="color:yellow;width:450px;">
+<img src="img.jpeg" class="image">
+<br>
+<br>
+<h4 class="heading">As soon as the popup appears, please click Allow. After you've spoken a command,</h4>
+<h3 class="heading" style="font-weight:bold;">say "Selfie" to click your selfie and make a collage.</h3>
+<br>
+<button class="btn btn-warning" onclick="start()">Start</button>
+<h4 class="heading">Press the start button above</h4>
+<br>
+<label>Your voice output : </label>
+
+<textarea class="form-control" id="textbox" readonly="true"></textarea>
+<br>
+<label>Your webcam : </label>
+         <div id="camera"></div>
+        <br>
+<br>
+<label>All selfies will be displayed here:</label>
+<div id="resultShow">
+
+<div class="container col-sm-12 col-md-6 col-lg-6 col-xl-6" id="result1">
+<img src="img2.jpg" style="width:80%;height:50%;" class="Oimg">
+</div>
+
+<div class="container col-sm-12 col-md-6 col-lg-6 col-xl-6" id="result2">
+<img src="img3.jpg" style="width:80%;height:50%;" class="Oimg">
+</div>
+
+<div class="container col-sm-12 col-md-6 col-lg-6 col-xl-6" id="result3">
+<img src="img4.jpg" style="width:80%;height:50%;" class="Oimg">
+</div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</center>
+<div class="footer">Developed by - Aditya</div>
+</body>
+
+</html>
